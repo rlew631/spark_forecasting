@@ -8,6 +8,20 @@
 
 ## Docker stuff
 
+__install:__
+`sudo apt instaal docker`
+`sudo apt install docker-compose`
+
+__start on boot:__
+`sudo systemctl start docker`
+`sudo systemctl enable docker`
+`sudo systemctl status docker`
+
 ## Terraform stuff
 
-## 
+https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+## Rancher stuff
+
+__Verify this...__ Rancher server should be bootstrapped by terraform
+
